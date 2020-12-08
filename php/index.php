@@ -7,7 +7,7 @@
 <body>
 
   <?php
-    require (dirname (__FILE__) . '/html/post.html');
+    require (dirname (__FILE__) . '/../html/post.html');
   ?>
 
 </body>
