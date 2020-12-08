@@ -4,3 +4,8 @@
     を動かす
  -->
  
+<?php
+
+echo "post_notification.php";
+
+?>
