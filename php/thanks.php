@@ -21,8 +21,8 @@
     echo '頂いた質問『';
     echo $question;
     echo '』<br />';
-    echo $email;
-    echo 'にメールを送信しましたので，ご確認ください';
+    echo 'カテゴリー：';
+    echo $category;
   ?>
 
 </body>
