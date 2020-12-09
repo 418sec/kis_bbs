@@ -16,6 +16,10 @@
     $category = $_POST['category'];
     $question = $_POST['question'];
 
+    $nickname = htmlspecialchars($nickname);
+    $category = htmlspecialchars($category);
+    $question = htmlspecialchars($question);
+
     if ($nickname == '') {
       echo 'ニックネームが入力されていません<br/>';
     } else {
@@ -48,6 +52,9 @@
       echo '</form>';
     } else {
       echo '<form method="post" action="thanks.php">';
+      echo '<input name="nickname" type="hidden" value="'.$nickname.'">';
+      echo '<input name="category" type="hidden" value="'.$category.'">';
+      echo '<input name="question" type="hidden" value="'.$question.'">';
       echo '<input type="button" onclick="history.back()" value="戻る">';
       echo '<input type="submit" value="OK">';
       echo '</form>';
