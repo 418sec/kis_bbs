@@ -49,7 +49,7 @@
       echo '<input type="button" onclick="history.back()" value="戻る">';
       echo '</form>';
     } else {
-      echo '<form method="post" action="thanks.php">';
+      echo '<form method="post" action="post_thanks.php">';
       echo '<input name="nickname" type="hidden" value="'.$nickname.'">';
       echo '<input name="category" type="hidden" value="'.$category.'">';
       echo '<input name="question" type="hidden" value="'.$question.'">';
