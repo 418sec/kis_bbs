@@ -1,3 +1,6 @@
+<!--
+    post_check.phpで確認されたのに対し，御礼を表示するページ
+ -->
 <!DOCTYPE html>
 <html>
 <head>
