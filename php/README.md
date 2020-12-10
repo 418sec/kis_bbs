@@ -2,6 +2,6 @@
 
 質問ページ
 
-# question_
+# questions_
 
-..
+回答表示ページ
