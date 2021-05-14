@@ -1,7 +1,3 @@
-# tsunagukai
+# kis_bbs
 
-Developing...
-
-# What is tsunagukai?
-
-It is a web site of the question boards.
+https://konan-kigyoken.work/bbs/
